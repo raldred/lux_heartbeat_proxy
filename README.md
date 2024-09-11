@@ -1,6 +1,12 @@
 # Lux Heartbeat Proxy
 
-This is based on work by @stalniy
+This runs a simple proxy to allow blocking your LuxPower inverters connection to China.
+The proxy responds to the interver heartbeat packet to prevent the dongle from restarting every 5 minutes.
+
+This is based on work by [@stalniy](https://github.com/stalniy)
+[Original discussion](https://github.com/guybw/LuxPython_DEV/issues/295)
+
+To be used in conjuection with Guy's LuxPython_DEV
 
 It requires you have access to the web interface for your LuxPower Wifi Dongle
 
