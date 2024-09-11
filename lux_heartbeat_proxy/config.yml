@@ -1,0 +1,15 @@
+name: "LuxPower Heartbeat Proxy"
+description: "Proxy to intercept heartbeat from LuxPower inverters"
+version: "0.0.1"
+slug: "luxpower_heartbeat_proxy"
+url: https://github.com/raldred/lux_heartbeat_proxy
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+startup: services
+ports:
+  4346/tcp: 4346
